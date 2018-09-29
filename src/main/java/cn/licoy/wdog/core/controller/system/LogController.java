@@ -1,8 +1,7 @@
 package cn.licoy.wdog.core.controller.system;
 
-import cn.licoy.wdog.common.bean.ResponseResult;
 import cn.licoy.wdog.common.bean.ResponseCode;
-import cn.licoy.wdog.common.controller.DeleteController;
+import cn.licoy.wdog.common.bean.ResponseResult;
 import cn.licoy.wdog.common.controller.QueryController;
 import cn.licoy.wdog.core.dto.system.log.FindLogDTO;
 import cn.licoy.wdog.core.entity.system.SysLog;
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 
 import java.util.List;
 

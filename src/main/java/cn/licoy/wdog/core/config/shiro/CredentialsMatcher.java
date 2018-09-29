@@ -4,7 +4,9 @@ package cn.licoy.wdog.core.config.shiro;
 import cn.licoy.wdog.common.util.Encrypt;
 import cn.licoy.wdog.common.util.JwtUtil;
 import cn.licoy.wdog.core.config.jwt.JwtToken;
-import org.apache.shiro.authc.*;
+import org.apache.shiro.authc.AuthenticationInfo;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.DisabledAccountException;
 import org.apache.shiro.authc.credential.SimpleCredentialsMatcher;
 
 /**

@@ -1,7 +1,6 @@
 package cn.licoy.wdog.core.config.shiro;
 
 
-
 import cn.licoy.wdog.common.exception.RequestException;
 import cn.licoy.wdog.common.util.JwtUtil;
 import cn.licoy.wdog.core.config.jwt.JwtToken;
@@ -16,10 +15,8 @@ import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-
 
 import java.util.List;
 
