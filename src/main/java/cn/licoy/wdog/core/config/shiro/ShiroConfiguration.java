@@ -68,7 +68,7 @@ public class ShiroConfiguration {
     public SecurityManager securityManager(RedisCacheManager RedisCacheManager){
         DefaultWebSecurityManager manager =  new DefaultWebSecurityManager();
         manager.setRealm(myRealm());
-        manager.setCacheManager(RedisCacheManager);
+//        manager.setCacheManager(RedisCacheManager);
         /*
         * 关闭session存储，禁用Session作为存储策略的实现，
         * 但它没有完全地禁用Session所以需要配合SubjectFactory中的context.setSessionCreationEnabled(false)
