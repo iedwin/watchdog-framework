@@ -1,7 +1,7 @@
 # Introduction
 This project is forked from a J2EE skeleton project [watchdog-framework](https://github.com/watchdog-framework/watchdog-framework) 
 based on SpringBoot+Shiro+Mybatis+Mybatis-Plus+HikariCP+Redis+Vue+iView.  
-I would like to make some enhancement to the origin project. 
+I would like to make some enhancements to the origin project. 
 
 ## Requirement
     JDK1.8+
